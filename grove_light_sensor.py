@@ -1,5 +1,9 @@
+import os
 import time
 import grovepi
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 
 # Connect the Grove Light Sensor to analog port A0
 # SIG,NC,VCC,GND
